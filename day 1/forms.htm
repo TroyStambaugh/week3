@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="site.css"/>
+    </head>
+    <body>
+        <h1>My First Form</h1>
+        <form action="mailto:william.stambaugh@interapthq.com" method="post" enctype="text/plain">
+            <fieldset>
+                <!-- Begin Basic Details -->
+                <h1>Basic Info</h1>
+                <label>First Name:
+                    <input type="text" name="firstName" id="firstName"/></label><br/>
+                    <label>Last Name:
+                        <input type="text" name="lastName" id="lastName"/></label><br/>
+                        <label>Email Address:
+                            <input type="text" name="email" id="email"/></label><br/>
+                            <label>Get marketing junk?
+                                <input type="checkbox" name="option" checked id="option"/></label><br/>
+                                <input type="submit" value="Sign me up"/>
+                                <!-- End Basic Details-->
+                                
+                                <hr/>
+                                <!-- Additional info-->
+                                
+                                <h1> Add'l Profile Info</h1>
+                                <p> Choose your favorite movie:</p>
+                                <select name="favMovie" id="favMovie">
+                                    <option value="1">Return of the Jedi</option>
+                                    <option value="2">Rocky 4</option>
+                                    <option value="3">Beyond the Mat</option>
+                                    </select>
+                                    <!-- End Additional Info-->
+
+                                    <p> Additional comments</p>
+<textarea id="comments" name="comments" style="height:100px; width:300px">
+</textarea>
+
+                                
+
+
+                                
+                </fieldset>
+            
+            </form>
+        </body>
+
+
+    </html>

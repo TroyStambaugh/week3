@@ -1,0 +1,24 @@
+ /* Main Styles*/
+body{
+    background:green;
+    
+
+margin:20px;
+}
+/* Custom Styles*/
+.yellowMed{
+color:yellow;
+font-size:14pt;
+}
+.yellowLg{
+color:yellow;
+font-size:20pt;
+}
+.almostBaconBrown{
+color:#C87F32;
+}
+
+.corporateBlue{
+background-color:blue;
+}
+
