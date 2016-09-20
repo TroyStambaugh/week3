@@ -19,7 +19,7 @@ function handleGuess() {
     if (+guess == answer) {
         //tell them the answer is right
         $("#message").text("You're right");
-    
+    $("#tbxGuess").hide();
     }
     else {
         // tell them the answer is wrong
@@ -47,3 +47,7 @@ $(function () {
 
 });
 
+function reset(){
+$("#reset").location(reload);
+
+}
