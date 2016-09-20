@@ -19,21 +19,23 @@ function handleGuess() {
     if (+guess == answer) {
         //tell them the answer is right
         $("#message").text("You're right");
-
+    
     }
     else {
         // tell them the answer is wrong
         $("#message").text("Nope, try again!");
+        $("#tbxGuess").val("");
 
     }
 }
 
-function playGame() {
+    function playGame() {
 
-    $("#intro").hide();
-    $("#game").show();
+        $("#intro").hide();
+        $("#game").show();
+        $("#tbxGuess").focus();
+    }
 
-}
 
 $(function () {
     $("#startGame").on("click", playGame);
